@@ -22,6 +22,7 @@ public void doLogin(){
 	
 	driver.get("http://gmail.com");
 	driver.findElement(By.id("Email")).sendKeys("eurodrugtrial@gmail.com");
+	driver.findElement(By.id("next")).click();
 	
 
 }
