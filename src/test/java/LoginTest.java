@@ -24,6 +24,8 @@ public void doLogin(){
 	driver.findElement(By.id("Email")).sendKeys("eurodrugtrial@gmail.com");
 	driver.findElement(By.id("next")).click();
 	
+	/*commenting to test the jenkins is working or not*/
+	
 
 }
 
