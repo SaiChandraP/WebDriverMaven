@@ -33,7 +33,6 @@ public void doLogin(){
 }
 
 @AfterSuite
-
 public void teardown(){
 	
 	driver.quit();
